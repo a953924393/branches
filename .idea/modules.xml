@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/batch-dao/batch-dao.iml" filepath="$PROJECT_DIR$/batch-dao/batch-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batch-domain/batch-domain.iml" filepath="$PROJECT_DIR$/batch-domain/batch-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batch-rpc/batch-rpc.iml" filepath="$PROJECT_DIR$/batch-rpc/batch-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/batch-service/batch-service.iml" filepath="$PROJECT_DIR$/batch-service/batch-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpd-tools.iml" filepath="$PROJECT_DIR$/jpd-tools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools-common/tools-common.iml" filepath="$PROJECT_DIR$/tools-common/tools-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools-rpc/tools-rpc.iml" filepath="$PROJECT_DIR$/tools-rpc/tools-rpc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tools-web/tools-web.iml" filepath="$PROJECT_DIR$/tools-web/tools-web.iml" />
+    </modules>
+  </component>
+</project>
+

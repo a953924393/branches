@@ -1,0 +1,15 @@
+# For JBoss: Avoid to setup log4j outside $JBOSS_HOME/server/default/deploy/log4j.xml
+# For all other servers: Comment out the Log4J listener in web.xml too INFO
+log4j.rootCategory=info,stdout,logfile
+
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=[%d{yyyy-MM-dd HH\:mm\:ss}] [%p] [%m] [%l]%n
+
+log4j.logger.logfile = logfile
+log4j.appender.logfile=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.logfile.File=${catalina.home}/logs/jpdtool_log_
+log4j.appender.logfile.DatePattern=yyyy-MM-dd'.log' 
+log4j.appender.logfile.layout=org.apache.log4j.PatternLayout
+log4j.appender.logfile.Threshold=info
+log4j.appender.logfile.layout.ConversionPattern=[%d{yyyy-MM-dd HH\:mm\:ss}] [%p] [%m] [%l]%n
